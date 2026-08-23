@@ -2,7 +2,7 @@
 
 > Paste one piece of content and get it rewritten as native posts for six different platforms.
 
-**[Live demo](https://su-campaign.vercel.app)**
+**[Live demo](https://campaign-mlx.vercel.app)**
 
 Repurposing a blog post by hand means rewriting it six times, each with different length limits and conventions. Campaign Generator sends the source content — truncated to 6,000 characters — plus a content type, brand voice, and target audience to Llama 3.3, which returns one structured object per selected platform. Each output respects its own format: X posts stay under 280 characters and come with a thread, Instagram gets a caption with hashtags, TikTok gets a hook plus a script, and email gets a subject line, preview text, and body with a CTA.
 
@@ -32,4 +32,4 @@ Requires `GROQ_API_KEY` in `.env.local`, read server-side by the `/api/generate`
 
 ---
 
-Part of a series of 91 small web apps. [Browse them all](https://su-slopmachine.vercel.app).
+Part of a series of 91 small web apps. [Browse them all](https://lorenzoylosada.vercel.app).
